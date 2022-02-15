@@ -1,0 +1,28 @@
+.fillProContainer {
+    width: 100%;
+    background: none;
+    color: #fafafa;
+    clear: both;
+}
+.fillProContainer_sCnD {
+    display: flex;
+    padding: 6rem;
+}
+.fillProImage { 
+    width: 80%;
+}
+.fillProImage .fillProImg {
+    width: 100%;
+}
+.fillProText {
+    margin-top: 5rem;
+    width: 70%;
+}
+.fillProTitle {
+    line-height: 3;
+}
+.fillProSubtitle {
+    line-height: 2;
+    width: 75%
+
+}

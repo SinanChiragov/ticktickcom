@@ -1,0 +1,86 @@
+.fetures_3XM1 {
+    fill: #ccc;
+}
+.assessContainer {
+    background-color: #fafafa;
+    width: 100%;
+}
+.assessContainer_sCnD {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 9rem 0;
+}
+.assessImage {
+    width: 50%;
+    float: left;
+    clear: left;
+    margin-right: 5rem;
+}
+
+.assessImage img {
+    box-sizing: border-box;
+    width: 60%;
+}
+.assessText {
+    clear: left;
+    float: right;
+    width: 50%;
+    margin-right: 5rem;
+}
+.assessTitle { 
+    width: 100%;
+    line-height: normal;
+    font-weight: bold;
+}
+.assessText ul {
+    list-style: none;
+    padding: 0;
+}
+
+.assessText ul li {
+    display: flex;
+    padding: 1.5rem 1rem; 
+    margin-bottom: 1rem;
+    transition: .4s ease-in-out;
+}
+.assessText ul li:hover {
+    background: rgba(0,0,0,.04);
+}
+
+.assessText ul li:hover svg {
+    fill: #4772fa;
+}
+.assessText ul li.activeClass {
+    background: rgba(0,0,0,.04);
+}
+
+.assessText ul li.activeClass svg { 
+    fill: #4772fa;
+}
+.assessText ul li div {
+    margin: 0;
+}
+.assessText ul li strong {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.assessText ul li span {
+    display: block;
+}
+.assessText ul li svg {
+    height: 2rem;
+    fill: #ccc;
+    margin: 0;
+    padding: 0;
+    margin-right: .8rem;
+    transition: .5s ease-in-out;
+}

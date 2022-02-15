@@ -1,0 +1,77 @@
+.voiceContainer {
+    background-color: #fafafa;
+    width: 100%;
+}
+.voiceContainer_sCnD {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 9rem 0;
+}
+.voiceImage {
+    width: 50%;
+    float: left;
+    clear: left;
+    margin-right: 5rem;
+}
+
+.voiceImage img {
+    box-sizing: border-box;
+    width: 50%;
+}
+.voiceText {
+    clear: left;
+    float: right;
+    width: 50%;
+    margin-right: 5rem;
+}
+.voiceTitle { 
+    width: 100%;
+    line-height: normal;
+    font-weight: bold;
+}
+.voiceText ul {
+    list-style: none;
+    padding: 0;
+}
+
+.voiceText ul li {
+    display: flex;
+    padding: 1.5rem 1rem; 
+    margin-bottom: 1rem;
+    transition: .3s ease-in-out;
+}
+.voiceText ul li:hover {
+    background: rgba(0,0,0,.04);
+}
+
+.voiceText ul li:hover svg {
+    fill: #4772fa;
+} 
+.voiceText ul li.activeClass {
+    background: rgba(0,0,0,.04);
+}
+.voiceText ul li.activeClass svg {
+    fill: #4772fa;
+}
+.voiceText ul li div {
+    margin: 0;
+}
+.voiceText ul li strong {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.voiceText ul li span { 
+    display: block;
+}
+.voiceText ul li svg {
+    height: 2rem;
+    margin-right: 1.5rem;
+}

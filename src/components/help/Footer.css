@@ -1,0 +1,48 @@
+.helpFooter {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    background: #fafafa;
+}
+.helpFooter .socialMedia { 
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 4rem 0;
+}
+.helpFooter .socialMedia a {
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+}
+.helpFooter .socialMedia a img {
+    width: 2rem;
+    margin: 0;
+}
+.help_list .blog {
+    display: flex;
+}
+.footerBottom p {
+    text-align: right;
+    float: right;
+    margin-right: 0;
+}
+.footerBottom {
+    display: block;
+    padding: 5rem;
+    display: flex;
+}
+.helpMethod {
+    display: flex;
+    margin-right: 500px;
+}
+.blog {
+    display: flex;
+}
+.helpMethod > li {
+    margin: 1rem
+}
+.blog > li {
+    margin: 1rem;
+}

@@ -1,0 +1,113 @@
+.brand_2aHQJ {
+    cursor: pointer
+}
+
+.brand_2aHQJ .logo_1OKcB {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 16px
+}
+
+.brand_2aHQJ .logoText_3rRis {
+    height: 32px;
+    width: 100px;
+    vertical-align: middle
+}
+.product-tick-white_svg__st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #fff;
+}
+.headerContainer {
+    background: #4772fa;
+    width: 90%;
+    margin: auto;
+
+}
+.headerContainer nav {
+    display: flex;
+    padding: 2rem;
+}
+.headerContainer nav ul {
+    display: flex;
+}
+.headerContainer nav ul li {
+    padding: 0;
+    margin-right: 2rem;
+}
+.headerContainer nav ul li a {
+    color: #fafafa;
+    font-size: 16px;
+}.headerContainer nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+.headerContainer nav .logo {
+    margin-left: 0;
+}
+.search-title {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.helpintro {
+    width: 80%;
+    margin: auto;
+}
+.hero-inner #query {
+    height: 54px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 2px 4px 0 0 rgba(0,0,0,0.12);
+    border-radius: 2px;
+  	transition: all 0.3s;
+    width: 70%;
+    padding-left: 3rem;
+    margin-left: 15%;
+}
+#query:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.search::before {
+    font-family: "copenhagen-icons";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+.search::before {
+    position: relative;
+    padding: 1rem 0.4rem;
+    left: 25%;
+    background-color: #fff;
+    color: #ddd;
+    content: "\1F50D";
+    font-size: 18px;
+    position: absolute;
+}
+ul.helpBoxes {
+    display: flex;
+    columns: 4;
+    margin: 0;
+    padding: 4rem 0;
+    margin-top: 3rem;
+}
+li.helpBox {
+    background: #fafafa;
+    margin-left: 4rem;
+    width: 20%;
+}
+li.helpBox a {
+    background: #fafafa;
+    text-align: center;
+    padding: 2rem 3rem;
+    display: block;
+}
+li.helpBox a img {
+    width: 100%;
+    margin: 1rem auto 2rem;
+    
+}

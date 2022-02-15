@@ -1,0 +1,39 @@
+.calendarContainer {
+    background: none;
+    width: 100%;
+    color: #ccc;
+}
+.calendarContainer_sCnD {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 9rem 0;
+}
+.calendarContainer_sCnD .calendarImage {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+.calendarContainer_sCnD .calendarImage img {
+    padding: 0;
+    padding-left: 0;
+}
+.calendarContainer_sCnD .calendarText {
+    width: 37%;
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 5rem;
+    color: #fafafa;
+}
+.calendarContainer_sCnD .calendarTitle {
+    margin-top: 9rem;
+    line-height: 2;
+}
+.calendarContainer_sCnD .calendarSubtitle {
+    font-size: 18px;
+    line-height: 2
+}

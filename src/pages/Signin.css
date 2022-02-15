@@ -1,0 +1,122 @@
+.signBody  {
+    cursor: pointer;
+    text-align: center;
+    background: #fdfdfd;
+    margin: 0;
+    padding: 6rem;
+}
+.signBody  a:hover {
+    text-decoration: underline;
+}
+.logo__1DB5Q {
+    margin-bottom: 3rem;
+}
+.signBody .logo_1OKcB {
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.icon-logo {
+    fill-opacity: 1;
+}
+.signContainer {
+    border: 1px solid rgba(0,0,0,.06);
+    padding: 3rem;
+    width: 25%;
+    background-color: white;
+}
+.signContainer input::selection {
+    background: #d3c1c1;
+}
+.signContainer input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.signContainer input {
+    width: 100%;
+    border: none;
+    padding: .5rem;
+    font-size: 1rem;
+}
+.signContainer .input {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.signContainer button {
+    width: 100%;
+    padding: .7rem;
+    background: #4772fa;
+    border: none;
+    color: #fafafa;
+    border-radius: 2px;
+}
+.signContainer button:hover {
+    background-color: #6c8efb;
+}
+.signContainer p.termsofuse {
+    font-size: 12px;
+    text-align: left;
+}
+.signContainer div.paravan {
+    display: flex;
+}
+.signContainer div.paravan div {
+    border: 1px solid rgba(0,0,0,.06);
+}
+.middleLine__GdWZ6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.middleLine__GdWZ6:before {
+    background-color: rgba(0,0,0,.06);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.middleLine__GdWZ6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.middleLine__GdWZ6:after {
+    background-color: rgba(0,0,0,.06);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.middleLine__GdWZ6  {
+    margin: 2rem 0;
+    color: rgba(0,0,0,.50);
+    font-size: 14px;
+}
+.signContainer ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.signContainer ul li a:hover {
+    text-decoration: none;
+}
+.signContainer ul li a {
+    color: rgba(0,0,0, .6);
+}
+.signContainer ul li {
+    border: 1px solid rgba(0,0,0,.06);
+    margin-bottom: 1rem;
+    padding: .7rem;
+    border-radius: 1.5rem;
+    transition: .4s ease-in-out;
+}
+.signContainer ul li:hover {
+    background: #eee;
+}
+.signContainer p a {
+    font-size: 14px;
+}

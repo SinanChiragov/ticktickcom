@@ -1,0 +1,39 @@
+.helpTitleBody {
+    background: #fafafa;
+    margin-bottom: 0;
+}
+.helpBodyTitle {
+    display: flex;
+    width: 50%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06)
+}
+.helpBodyTitle img {
+    width: 1rem;
+    height: 1rem;
+    margin: 2.5rem 1rem;
+}
+.helpTitle {
+    font-size: larger;
+    margin-top: 2rem;
+}
+.helpBodyList {
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: left;
+}
+.helpBodyList ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: disc;
+}
+.helpBodyList ul li a {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+.helpBodyList ul li a:hover {
+    text-decoration: underline;
+}

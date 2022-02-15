@@ -1,0 +1,70 @@
+.introContainer_21mrh {
+    margin-top: 72px;
+    /* padding: 0 10%; */
+    min-height: 720px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+}
+
+.container_1lCib {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.introTitle_37DTa {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.introText_1yC4O {
+    margin-right: 70px;
+    text-align: left;
+    font-family: Segoe UI,avenir next,Hiragino Sans GB,PingFang SC,Helvetica Neue,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
+    background: #fff;
+    color: #000;
+    line-height: 1.8rem;
+}
+.introText_1yC4O button {
+    padding: 1rem 1.5rem;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    color: #14222f;
+    transition: .4s ease-in-out;
+    border: rgba(0, 0, 0, .24) solid 1px;
+}
+.introText_1yC4O button:hover {
+    border: 1px solid black;
+    background: none;
+}
+.introText_1yC4O button.active {
+    background: #4772fa;
+    color: #fff;
+    margin-right: 2rem;
+    border: none;
+}
+.introText_1yC4O button.active:hover {
+    background: #6c8efb;
+    border: none;
+}
+.introDesc_3RHGd {
+    max-width: 471px;
+    margin-top: 24px
+}
+img {
+    width: 70%;
+    float: right;
+    margin-right: 70px;
+}

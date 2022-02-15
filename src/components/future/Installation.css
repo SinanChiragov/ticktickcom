@@ -1,0 +1,29 @@
+.installcontainer  {
+    text-align: center;
+    margin: 8rem;
+}
+.installcontainer h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.installcontainer p {
+    width: 55%;
+    font-size: larger;
+    margin: auto;
+    line-height: 2em;
+    margin-bottom: 3rem;
+}
+.installcontainer button { 
+    padding: 1rem 1.5rem;
+    background: #4772fa;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    transition: .4s ease-in-out
+}
+.installcontainer button:hover {
+    background: #6c8efb;
+}

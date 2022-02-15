@@ -1,0 +1,31 @@
+.securityBody {
+    width: 100%;
+    margin: 5rem 0 0 0;
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .06)
+}
+.securityContainer {
+    width: 55%;
+    padding: 1rem;
+}
+.securityBody .securityContainer p {
+    background-color: rgb(253, 253, 253);
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(38, 38, 38);
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    outline-style: none;
+    overflow-wrap: break-word;
+    margin: 0px;
+    padding: 1rem;
+}
+.securityBody .securityContainer h2 { 
+    text-align: justify;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    padding: 7px 0  0 1rem ;
+    margin: 2rem 0 0 0;
+    color: rgba(0, 0, 0, .85);
+}

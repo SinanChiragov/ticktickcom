@@ -1,0 +1,41 @@
+.downBody {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10rem;
+}
+.downContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+}
+.downBox {
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 2rem 4rem;
+    margin: 4rem auto 0;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%), 0 4px 20px 0 rgb(0 0 0 / 16%);
+    border-radius: .5em;
+}
+.downBox  img {
+    width: 12rem;
+    margin: 4rem auto 3rem;
+}
+.downBox:nth-child(4) img {
+    width: 5rem;
+    height: 6rem;
+}
+.downBox button {
+    padding: .8rem 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 70%;
+    background: #4772fa;
+    color: #fafafa;
+    border-radius: .5rem;
+    border: none
+    
+}

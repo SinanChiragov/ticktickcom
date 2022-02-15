@@ -1,0 +1,40 @@
+.simpleFooterBody {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.simpleFooterContainer {
+    width: 60%;
+    margin: auto;
+}
+.simpleFooterLists {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.simpleFooterLists .simpleList {
+    display: flex;
+    margin: 3rem 0;
+}
+.simpleList li {
+    margin-right: 2rem;
+}
+.simpleList_1 li a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: rgb(4, 24, 53) !important;
+}
+.simpleList_2 li a {
+    color: rgb(4, 24, 53) !important;
+    font-size: 0.75rem;
+
+}
+.simpleListItem {
+    margin-bottom: 1rem;
+}
+.simpleFooterContainer p {
+    float: right;
+    margin-top: 7rem;
+    color: rgb(4, 24, 53) !important;
+    font-size: 0.75rem;
+}

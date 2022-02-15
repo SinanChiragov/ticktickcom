@@ -1,0 +1,106 @@
+.cardMainContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cardMainContainer_scnd {
+    width: 80%;
+    display: flex;
+    padding: 5rem;
+}
+.cardMainContainer_scnd .saling,
+.cardMainContainer_scnd form .recipientInfo {
+    display: grid;
+    grid-template-columns: auto;
+}
+.cardMainContainer_scnd .buttons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5rem 4rem;
+}
+.cardMainContainer_scnd .buttons button {
+    padding: 1rem;
+    background: rgba(0, 0, 0, .06);
+    border: none;
+    border-radius: .25rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardMainContainer_scnd .buttons button.activeButton {
+    background: #4772fa;
+    color: #fafafa;
+}
+.cardMainContainer_scnd .cardView {
+    width: 50%;
+}
+.saling {
+    width: 40%;
+}
+.saling a {
+    display: block;
+    text-align: right;
+}
+.saling h1 {
+    font: 14px;
+    font-weight: normal;
+    line-height: 1;
+}
+.saling input[type="number"] {
+  padding: 1rem 2rem;
+  width: 3rem;
+  outline: 0;
+  border-radius: .25rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  background:rgba(0, 0, 0, .06)
+}
+.saling label.lblBuy {
+    display: block;
+    font-size: 16px;
+}
+.saling input#name,
+.saling input#email,
+.saling input#name {
+    padding: 1rem;
+    border: none;
+    background: rgba(0, 0, 0, .06);
+    outline: 0;
+    font-size: 18px;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.saling textarea {
+    border: none;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, .06);
+    outline: 0;
+    padding: .8rem;
+    font-size: 1rem 2rem;
+    margin-bottom: 2rem
+}
+.saling button[type="submit"] {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: .25rem;
+    background-color: #4772fa;
+    color: #fff;
+}
+.saling label.hr {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    margin-top: 3rem;
+}
+.saling ul {
+    list-style: disc;
+    fill: #4772fa;
+}
+.saling ul li {
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, .3);
+}
+.saling ul li a {
+    display: inline;
+}

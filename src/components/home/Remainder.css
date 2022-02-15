@@ -1,0 +1,21 @@
+.remainderContainer_sCnD { 
+    margin: auto;
+    display: flex;
+    padding: 9rem 0;
+}
+.remainderContainer_sCnD {
+    width: 90%;
+}
+.remainderImage {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+
+}
+.remainderImage img {
+    margin: 0;
+}
+.remainderText {
+    width: 30%;
+    padding: 6rem 0;
+}

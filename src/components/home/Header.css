@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+}
+.headerContainer_1LyYr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    font-size: 0;
+    height: 72px;
+    line-height: 72px;
+    padding: auto;
+}
+
+.headerContainer_1LyYr.stuck_3PiBL {
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.06);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.06)
+}

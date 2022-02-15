@@ -1,0 +1,53 @@
+.installBody {
+    width: 100%;
+    background: rgba(0, 0, 0, .06);
+    padding: 4rem 0;
+}
+.installcontainer  {
+    text-align: center;
+}
+.installcontainer h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.installcontainer p {
+    width: 55%;
+    font-size: larger;
+    margin: auto;
+    line-height: 2em;
+    margin-bottom: 3rem;
+}
+.installcontainer .noneActive { 
+    padding: 1rem 1.5rem;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    color: #14222f;
+    transition: .4s ease-in-out;
+    border: rgba(0, 0, 0, .24) solid 1px;
+}
+.installcontainer .noneActive:hover {
+    border: 1px solid black;
+    background: none;
+} 
+.installcontainer .activeButton { 
+    padding: 1rem 1.5rem;
+    background: #4772fa;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    transition: .4s ease-in-out;
+    margin-right: 2rem;
+}
+.installcontainer .activeButton:hover {
+    background: #6c8efb;
+}
+.installcontainer img {
+    width: 86%;
+    margin: 3rem auto;
+}
